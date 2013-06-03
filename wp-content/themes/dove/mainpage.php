@@ -65,8 +65,11 @@ if ($value != '') {
 <?php endwhile; ?>
 
 </ul>
+
+
 </div>
 <?php include(TEMPLATEPATH . '/global_services.php'); ?>
+<?php include(TEMPLATEPATH . '/global_bottom.php'); ?>
 </div>
 <!--<?php include(TEMPLATEPATH . '/sidebar-right.php'); ?>-->
 

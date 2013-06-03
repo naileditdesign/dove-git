@@ -76,7 +76,7 @@
 			       $('.top-bar li:last').addClass('last');
 			       
 			       	
-			       	$('.our-block li').hover(
+			       	$('.our-block li,.bottom-section li').hover(
        function(){ $(this).addClass('active') },
        function(){ $(this).removeClass('active') }
        )

@@ -140,7 +140,7 @@ z-index: 1;
 
 .contact .bg,.service .bg { background:#becde8; float:left; padding-top: 0.6em; width:100%; height: 65px;}
 
-	.service .bg { background:#cbd7ed url(./img/mini-dove.png) no-repeat right; margin-top:0.8em; margin-bottom:0.8em; }
+	.service .bg { background:#cbd7ed url(./img/mini-dove.png) no-repeat right; margin-top:0.8em; margin-bottom:1.4em; }
 
 .contact a.button { 
 	
@@ -157,6 +157,8 @@ z-index: 1;
 	.home .contact .bg { background:white; }
 
 .contact p,.service p { font-size:20px; }
+
+.service .large-9 { padding-left:0; }
 
 		.service p { margin-top:0.2em;  }
 
@@ -208,7 +210,7 @@ z-index: 1;
 			border-color:#4e6e69;
 			}
 
- .our-block .inner {  
+ .our-block .inner,.bottom-section .inner {  
  			width:100%;
  			height:100%;
 			zoom: 0;
@@ -222,7 +224,7 @@ z-index: 1;
 			}
 
 
- .our-block .active .inner {  
+ .our-block .active .inner,.bottom-section .active .inner {  
 			zoom: 1;
 			filter: alpha(opacity=1);
 			opacity: 1;
@@ -238,6 +240,38 @@ z-index: 1;
 	}
 
 .our-block .image {  float:left; display:block;  }
+
+.bottom-section .image {
+
+			background: rgb(118, 164, 157);
+			background: rgba(118, 164, 157, 0.5);
+		
+}
+
+.bottom-section li { position:relative; }
+
+.bottom-section .active .image img {  	
+			zoom: 1;
+			filter: alpha(opacity=10);
+			opacity: 0.1;
+			-webkit-transition: all 400ms ease;
+			-moz-transition: all 400ms ease;
+			-ms-transition: all 400ms ease;
+			-o-transition: all 400ms ease;
+			transition: all 400ms ease; 
+			}
+
+
+.bottom-section span,.our-block span { font-size:14px; }
+
+.bottom-section a,.bottom-section span  { color:white; line-height:1.1; margin:0; }
+
+.bottom-section h3 { margin:0; padding:0; }
+
+.bottom-section .title { position:absolute; left: 0.7em; top:20%; border:0; background:rgba(99,97,122,0.7); width:70%; padding-left:0.9em;  } 
+
+.bottom-section .active .title { background:none; }
+
 
 /* #Forms
 ================================================== */
