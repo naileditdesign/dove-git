@@ -1,0 +1,379 @@
+/*   
+Theme Name: Dove Responsive 6.0
+Description: A responsive Template for Wordpress Built on Foundation 4. But with a few tweaks to make it a little better
+Author: Adam Jackson	
+Author URI: http://www.naileditdesign.com
+Version: 4.1
+*/
+
+/* #Basic Styles
+================================================== */
+body { font-family: 'PT Sans', sans-serif; color:#646567; }
+
+.logo { z-index:1; position:relative;}
+
+.featured { margin-top:-3em; }
+
+.featured-image { width:95%; height:112px; background:url(./img/1280x112&text=Default.gif); margin:auto; float:none; margin-top:-3em; }
+
+.featured-image span { width: 100%;
+						height: 100%;
+						float: left; }
+						
+						.noshow { display:none; } 
+
+.orbit-slide-number { display:none; }
+
+
+.number { font-size:18px; margin-top:1em; }
+.number span { font-size:14px; color:#91aee2; padding-top:1.125em;  }
+
+
+a.button,button,.button { background:#5e7295;  border-bottom: solid; border-color:#253e6a; border-width:0 0 2px 0;}
+
+a.button:hover,button:hover,.button:hover { background:#76a49d; border-color:#45776f; }
+
+a:hover { color:#76a49d; }
+
+
+.title { border-bottom:#becde8 solid 3px; margin-bottom:1.500em; }
+
+.menu li { list-style:none; }
+
+
+
+/* #Typography
+================================================== */
+h1,h2,h3,h4,h5,h6 { font-family: 'PT Sans', sans-serif; color:#646567; }
+
+h1 { font-size:25px; font-weight:bold; }
+
+h4 { font-size:18px; font-weight:normal; margin-bottom:5px; }
+
+/* #Navigation
+================================================== */
+
+
+@media only screen and (min-width: 58.75em) {
+
+.contain-to-grid .top-bar {
+margin-top:0.1em;
+margin-bottom:0;
+}
+
+.top-bar {
+background: #fff;
+float:right;
+height:80px;
+
+}
+
+.top-bar-section .has-dropdown > a {
+padding-right: 10px !important;
+}
+
+.top-bar-section ul li {
+position:relative;
+float: left;
+z-index: 1;
+}
+
+	.top-bar-section .dropdown { top:38px; }
+
+	.top-bar-section li a:not(.button) {
+	padding: 0 15px;
+	line-height: 45px;
+	background: none;
+	font-size:14px;
+	}
+	
+	.top-bar-section li.current-menu-item a { color:#91aee2; background: url(./img/nav-hover-arrow.png)no-repeat 50% 97%; }
+	
+		.top-bar-section ul li > a {
+			display: block;
+			width: 100%;
+			color: #808080;
+			padding: 12px 0 12px 0;
+			padding-left: 15px;
+			font-size: 0.8125em;
+			font-weight: normal;
+			background: #333333;
+			height:80px;
+			}
+			
+			.top-bar-section li a:not(.button):hover {
+				background:none;
+				color: #82aba5;
+				}
+		
+		.dropdown li a:not(.button) {
+			padding: 0 15px;
+			line-height: 45px;
+			background: #f1f1f1;
+			color:#808080;
+			font-size: 14px;
+			height:45px;
+			}
+			
+			.dropdown li a:not(.button):hover {
+			background: #f9f9f9;
+			}
+			
+			.top-bar li.last a { padding-right:0; }
+	}
+	
+/* #Main Styles
+================================================== */
+
+
+/* #Form Styles
+================================================== */
+
+
+
+/* #Content Styles
+================================================== */
+
+.featured .orbit-bullets { position:absolute; right:15%; top:90%; margin:0; }
+
+.contact { margin:2.188em 0;   }
+
+.contact .bg,.service .bg { background:#becde8; float:left; padding-top: 0.6em; width:100%; height: 65px;}
+
+	.service .bg { background:#cbd7ed url(./img/mini-dove.png) no-repeat right; margin-top:0.8em; margin-bottom:0.8em; }
+
+.contact a.button { 
+	
+	margin: 0.7em auto;
+	display: table; 
+	}
+	
+	.service a.button {
+		
+		margin: 0.1em 0 0.1em 1.5em;
+		display: table;
+		}
+	
+	.home .contact .bg { background:white; }
+
+.contact p,.service p { font-size:20px; }
+
+		.service p { margin-top:0.2em;  }
+
+#thumbs { margin-top:1em; }
+
+.outofstock { display:none; }
+
+
+
+
+.our-block .description {
+	position:relative; 
+	float:left;
+	width:100%; }
+	
+.our-block .inner { position:absolute; top:0; left:0;  }
+
+.our-block .inner p { padding:1em; color:white; }
+
+.our-block a { color: #646567; }
+
+.our-block span, .our-block h3 { line-height:1.1; margin:0; }
+
+.our-block .active a,.our-block .active span { color:white; }
+
+.our-block .active .title { padding-left:27%; 
+			-webkit-transition: all 200ms ease;
+			-moz-transition: all 200ms ease;
+			-ms-transition: all 200ms ease;
+			-o-transition: all 200ms ease;
+			transition: all 200ms ease;}
+
+.our-block .title { padding-bottom:0.5em;
+					margin:0;
+				-webkit-transition: all 200ms ease;
+				-moz-transition: all 200ms ease;
+				-ms-transition: all 200ms ease;
+				-o-transition: all 200ms ease;
+				transition: all 200ms ease;
+			 }
+
+.our-block .active .title { 
+			background-color:#76a49d !important; 
+			-webkit-transition: all 400ms ease;
+			-moz-transition: all 400ms ease;
+			-ms-transition: all 400ms ease;
+			-o-transition: all 400ms ease;
+			transition: all 400ms ease;
+			border-color:#4e6e69;
+			}
+
+ .our-block .inner {  
+ 			width:100%;
+ 			height:100%;
+			zoom: 0;
+			filter: alpha(opacity=0);
+			opacity: 0;
+			-webkit-transition: all 400ms ease;
+			-moz-transition: all 400ms ease;
+			-ms-transition: all 400ms ease;
+			-o-transition: all 400ms ease;
+			transition: all 400ms ease;
+			}
+
+
+ .our-block .active .inner {  
+			zoom: 1;
+			filter: alpha(opacity=1);
+			opacity: 1;
+			width:100%;
+			height:100%;
+			background: rgb(118, 164, 157);
+			background: rgba(118, 164, 157, 0.5);
+			-webkit-transition: all 400ms ease;
+			-moz-transition: all 400ms ease;
+			-ms-transition: all 400ms ease;
+			-o-transition: all 400ms ease;
+			transition: all 400ms ease;
+	}
+
+.our-block .image {  float:left; display:block;  }
+
+/* #Forms
+================================================== */
+
+
+
+/* #Links
+================================================== */
+
+
+
+/* #Sidebar
+================================================== */
+
+
+
+/* #header
+================================================== */
+
+header { border-top:10px solid #becde8; }
+
+.home .featured-image { display:none; }
+
+
+
+/* #footer
+================================================== */
+footer { background:#f3f3f3; margin-top:1.8em; }
+
+footer .tops { border-top:3px solid #becde8; font-size:18px; text-align:center; padding-top:2.188em; padding-bottom:2.188em; }
+
+footer .tops span { font-size:14px; color:#91aee2;  }
+
+footer .mids span { font-size:12px; }
+
+footer ul { margin-top:2em; }
+
+footer a.facebook { font-weight:bold; }
+
+footer li a { background:url(./img/link-bullet.png) no-repeat left center; padding-left:15px; color:#646567; }
+
+footer .menu ul { background:url(./img/map-pin.png) no-repeat 0% 3%; padding-left:15px;}
+
+/* #comments
+================================================== */
+
+
+/* #images
+================================================== */
+
+img.alignright {float:right; margin:0 0 1em 1em;  height:auto; padding-bottom:10px;}
+img.alignleft {float:left; margin:0 1em 1em 0; border:none; height:auto;   }
+img.aligncenter {display: block; margin-left: auto; margin-right: auto; }
+img.alignnone { height:auto; }
+a img.alignright {float:right; margin:0 0 1em 1em; height:auto; padding-bottom:10px; }
+a img.alignleft {float:left; margin:0 1em 1em 0; border:none;  height:auto;  }
+a img.aligncenter {display: block;  margin-left: auto; margin-right: auto;   height:auto;}
+
+
+/* -----------------------------------------
+   Media Queries
+----------------------------------------- */
+	/* We use this media query to add styles to any device that supports media queries */
+	@media only screen { }
+
+	/* Smaller than standard 960 (devices and browsers) */
+	@media only screen and (max-width: 959px) {
+		
+		
+	}
+
+	/* Tablet Portrait size to standard 960 (devices and browsers) */
+	@media only screen and (min-width: 768px) and (max-width: 959px) {
+		.featured,.featured-image { margin-top:0; }
+	}
+
+	/* All Mobile Sizes (devices and browser) */
+	@media only screen and (max-width: 767px) {
+		
+		.featured,.featured-image { margin-top:0; }
+		
+		
+	}
+	
+	/* All Mobile Sizes (devices and browser) */
+	@media only screen and (min-width: 767px) { 
+		
+		
+		
+		}
+	
+
+	/* Used to alter styles for screens at least 1280px wide. */
+	@media only screen and (min-width: 1280px) {
+		
+		.featured { width:1280px; margin:auto; float:none; margin-top:-3em; }
+		
+		.featured-image { width:1280px; height:112px; background:url(./img/1280x112&text=Default.gif); margin:auto; float:none; margin-top:-3em; }
+
+	} 
+
+
+
+	/* Used to alter styles for screens at least 1440px wide. */
+	@media only screen and (min-width: 1440px) {
+		
+		
+		
+		
+
+			
+			
+	}
+	
+	/* Apply styles to screens in landscape orientation */
+	@media only screen and (orientation: landscape) {}
+	
+	/* Apply styles to screens in portrait orientation */
+	@media only screen and (orientation: portrait) {}
+	
+
+	/* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
+	@media only screen and (min-width: 480px) and (max-width: 767px) {
+		
+		
+	}
+
+	/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
+	@media only screen and (max-width: 479px) {
+		
+		
+	
+	
+	}
+  
+   /* We also use Modernizr to add a .touch class to the body when applicable */
+	/* You can prepend this class to anything and it will style only for touch devices */
+	.touch .your-element {}
+
